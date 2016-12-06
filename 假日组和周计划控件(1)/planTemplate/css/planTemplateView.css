@@ -1,0 +1,122 @@
+@charset "UTF-8";
+.planTemplateView {
+    position: relative;
+    width: 848px;
+    height: 252px;
+    cursor: default;
+    font-size: 12px;
+    margin: 0 auto;
+    /*overflow-y: auto;*/
+    border: 1px solid #e2e7ee;
+}
+.planTemplateView ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+.planTemplateView-panel {
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+.planTemplateView-scale {
+    position: absolute;
+    left: -1px;
+    top: -1px;
+    width: 850px;
+    height: 37px;
+    background: url(../images/planTemplate.png) no-repeat 0 -170px;
+}
+.planTemplateView-label {
+    position: absolute;
+    left: 0;
+    width: 79px;
+    padding-top: 1px;
+    height: 30px;
+    line-height: 30px;
+    text-align: center;
+    background: url(../images/planTemplate.png) no-repeat 0 -210px;
+    border-right: 1px solid #e2e7ee;
+}
+.planTemplateView-label span {
+    display: block;
+    height: 14px;
+    line-height: 14px;
+    font-family: Arial;
+}
+.planTemplateView-bar {
+    position: absolute;
+    left: 80px;
+    height: 31px;
+    width: 768px;
+    background: url(../images/planTemplate.png) no-repeat 0 -210px;
+}
+.planTemplateView-label-first,
+.planTemplateView-bar-first {
+    background: none;
+}
+
+.planTemplateView-slider {
+    position: absolute;
+    top: 3px;
+    height: 26px;
+}
+.planTemplateView-slider.blue {
+    background: #19b8f3;
+}
+.planTemplateView-slider.blue:hover {
+    background: #47c6f5;
+}
+.planTemplateView-slider.yellow {
+    background: #f8cf0d;
+}
+.planTemplateView-slider.yellow:hover {
+    background: #f9d93d;
+}
+.planTemplateView-slider.green {
+    background: #3cce76;
+}
+.planTemplateView-slider.green:hover {
+    background: #63d891;
+}
+
+.planTemplateView-header {
+    position: absolute;
+    left: -1px;
+    top: -1px;
+    width: 850px;
+    height: 30px;
+    background: #fff;
+}
+.planTemplateView-buttons li {
+    float: left;
+    height: 18px;
+    line-height: 18px;
+    width: 79px;
+    text-indent: 20px;
+    background: url(../images/planTemplate.png) no-repeat;
+}
+.planTemplateView-buttons .blue {
+    background-position: -838px 3px;
+}
+.planTemplateView-buttons .yellow {
+    background-position: -838px -40px;
+}
+.planTemplateView-buttons .green {
+    background-position: -838px -80px;
+}
+
+.planTemplateView-time {
+    display: none;
+    position: absolute;
+    left: 100px;
+    top: 100px;
+    width: 98px;
+    height: 31px;
+    line-height: 31px;
+    padding: 3px 3px 8px 3px;
+    background: url(../images/planTemplate.png) no-repeat -194px -58px;
+    text-align: center;
+    z-index: 2;
+    color: #585858;
+}
